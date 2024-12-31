@@ -13,3 +13,8 @@
 	- Como realizar solução de conflitos.
 	- O histórico do Git e como gerenciá-lo.
 	- Ferramentas como o Gist, a criação de READMES e o gitignore.
+
+### 1.2. Conhecendo o GitHub
+- A ideia do GitHub é compartilhar o código do projeto.
+- O compartilhamento permite a visualização e a colaboração.
+- É possível utilizá-lo gratuitamente, criando uma conta.
