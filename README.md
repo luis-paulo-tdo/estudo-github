@@ -18,3 +18,8 @@
 - A ideia do GitHub é compartilhar o código do projeto.
 - O compartilhamento permite a visualização e a colaboração.
 - É possível utilizá-lo gratuitamente, criando uma conta.
+
+### 1.3. Criando um Repositório
+- É um lugar onde será guardado um repositório de um determinado projeto.
+- Cada repositório deve ter um nome único para aquele usuário.
+- O repositório pode ser público ou privado, definindo a visibilidade dele.
