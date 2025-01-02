@@ -23,3 +23,14 @@
 - É um lugar onde será guardado um repositório de um determinado projeto.
 - Cada repositório deve ter um nome único para aquele usuário.
 - O repositório pode ser público ou privado, definindo a visibilidade dele.
+
+### 1.4. Instalando o Git
+- É necessária uma ferramenta para se conectar com o repositório do projeto.
+- Será necessário utilizar um prompt de comando para fazer esta conexão.
+- Será também necessária a instalação da ferramenta Git.
+- O Git é uma ferramenta para realizar o controle de versão dos códigos.
+- É com ela que nos conectamos com a plataforma GitHub, que hospeda códigos.
+- O Git também é usado para se conectar com outras plataformas além do GitHub.
+- A ferramenta pode ser baixada e instalada pelo seu site oficial.
+- Ao realizar o download, deve-se configurar as variáveis de ambiente para o Git.
+- Com o Git instalado, ao rodar o 'git init' em um diretório, ele o inicializa.
