@@ -34,3 +34,28 @@
 - A ferramenta pode ser baixada e instalada pelo seu site oficial.
 - Ao realizar o download, deve-se configurar as variáveis de ambiente para o Git.
 - Com o Git instalado, ao rodar o 'git init' em um diretório, ele o inicializa.
+
+### 1.5. Sincronizando Repositórios
+- O repositório criado no GitHub chama-se Repositório Remoto.
+- Além dele, é necessário criar um Repositório Local na máquina.
+- O Repositório Local é criado justamente pelo comando 'git init'.
+- Os arquivos são adicionados ao conjunto de alterações a serem versionadas:
+	- Isto pode ser feito ao executar o comando 'git add .'.
+	- Ele faz com que todos os arquivos do diretório sejam adicionados.
+- Com o comando 'git commit', os arquivos adicionados são submetidos:
+	- Este submit versiona as alterações dentro do Repositório Local.
+	- Para fazer um commit, o usuário precisa configurar sua identidade.
+	- Com o 'git config', você diz ao Git qual é o seu usuário e e-mail.
+- Com o comando 'git branch', uma branch é escolhida para o versionamento.
+- O 'git remote add origin', estabelece a conexão entre os Repositórios:
+	- Pode-se fazer esta conexão através dos protocolos HTTPS ou do SSH.
+- O 'git push -u origin main' efetua o commit no Repositório Remoto:
+	- O git só permitirá este comando quando você fizer uma autenticação.
+	- No caso do SSH, você precisa fazer a geração de uma chave SSH.
+	- O SSH te dará a autorização para enviar seus arquivos ao GitHub.
+	- O próprio GitHub disponibiliza um tutorial para gerar a chave.
+	- A chave é gerada através do comando 'ssh-keygen -t ed25519'.
+	- Você deve passar seu e-mail, senha (opcional) e onde vai salvar a chave.
+	- A chave pública gerada deve ser copiada para o GitHub reconhecê-la.
+	- Assim, sua máquina torna-se identificada e autenticada dentro do GitHub.
+	- Com a identificação e autenticação, torna-se possível versionar o código.
