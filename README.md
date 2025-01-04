@@ -59,3 +59,11 @@
 	- A chave pública gerada deve ser copiada para o GitHub reconhecê-la.
 	- Assim, sua máquina torna-se identificada e autenticada dentro do GitHub.
 	- Com a identificação e autenticação, torna-se possível versionar o código.
+- Com a sincronização, os arquivos passam a serem vistos dentro do projeto.
+	
+## 2. Colaborando em Projetos
+- Existem algumas opções para baixar o código do GitHub no computador.
+- Download zip, abrir com GitHub download ou clonar o repositório via URL.
+- A clonagem do repositório pode ser feita com o comando 'git clone <url>'.
+- Clonando o repositório, todos os arquivos são baixados.
+- Além do código, existem arquivos de configuração para o repositório local.
