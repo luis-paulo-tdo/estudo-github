@@ -62,8 +62,22 @@
 - Com a sincronização, os arquivos passam a serem vistos dentro do projeto.
 	
 ## 2. Colaborando em Projetos
+
+## 2.1. Clonando um Repositório
 - Existem algumas opções para baixar o código do GitHub no computador.
 - Download zip, abrir com GitHub download ou clonar o repositório via URL.
 - A clonagem do repositório pode ser feita com o comando 'git clone <url>'.
 - Clonando o repositório, todos os arquivos são baixados.
 - Além do código, existem arquivos de configuração para o repositório local.
+
+## 2.2. Realizando um Commit
+- Ao clonar um repositório, o código está pronto para receber colaborações.
+- Após receber as alterações do colaborador, elas ficam gravadas apenas na máquina.
+- Para submeter estas alterações ao repositório, usamos também a ferramenta Git.
+- Submeter o código ajuda os demais programadores a saber o que você fez.
+- O comando 'git status' exibe as nossas colaborações dentro do código.
+- Através do 'git add' selecionamos os arquivos que iremos submeter com um commit.
+- Com o 'git commit', subimos os arquivos e registramos as mudanças no repositório.
+	- No comando de commit, devemos descrever as alterações que fizemos.
+- Ao submeter um código, é como se estivéssemos subindo uma versão nova.
+- O comando 'git log' torna possível a visualização dos commits feitos no projeto.
