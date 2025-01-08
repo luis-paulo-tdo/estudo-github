@@ -15,14 +15,14 @@
 	- Ferramentas como o Gist, a criação de READMES e o gitignore.
 
 ### 1.2. Conhecendo o GitHub
-- A ideia do GitHub é compartilhar o código do projeto.
-- O compartilhamento permite a visualização e a colaboração.
-- É possível utilizá-lo gratuitamente, criando uma conta.
+- A ideia do GitHub é que o usuário compartilhe o código de seus projetos.
+- Compartilhamento permite a visualização e a colaboração por outros devs.
+- É possível utilizá-lo gratuitamente, criando uma conta em seu sit.
 
 ### 1.3. Criando um Repositório
 - É um lugar onde será guardado um repositório de um determinado projeto.
 - Cada repositório deve ter um nome único para aquele usuário.
-- O repositório pode ser público ou privado, definindo a visibilidade dele.
+- O repositório pode ser público ou privado, definindo sua visibilidade.
 
 ### 1.4. Instalando o Git
 - É necessária uma ferramenta para se conectar com o repositório do projeto.
@@ -30,54 +30,68 @@
 - Será também necessária a instalação da ferramenta Git.
 - O Git é uma ferramenta para realizar o controle de versão dos códigos.
 - É com ela que nos conectamos com a plataforma GitHub, que hospeda códigos.
-- O Git também é usado para se conectar com outras plataformas além do GitHub.
+- O Git também é usado para se conectar com outras plataformas.
 - A ferramenta pode ser baixada e instalada pelo seu site oficial.
-- Ao realizar o download, deve-se configurar as variáveis de ambiente para o Git.
-- Com o Git instalado, ao rodar o 'git init' em um diretório, ele o inicializa.
+- Ao fazer o download, deve-se configurar as variáveis de ambiente do Git.
+- Ao rodar o 'git init' com o Git em uma pasta, ele inicia o repositório.
 
 ### 1.5. Sincronizando Repositórios
-- O repositório criado no GitHub chama-se Repositório Remoto.
+- O repositório que é criado no GitHub chama-se Repositório Remoto.
 - Além dele, é necessário criar um Repositório Local na máquina.
 - O Repositório Local é criado justamente pelo comando 'git init'.
-- Os arquivos são adicionados ao conjunto de alterações a serem versionadas:
+- Arquivos são adicionados ao conjunto de alterações:
 	- Isto pode ser feito ao executar o comando 'git add .'.
-	- Ele faz com que todos os arquivos do diretório sejam adicionados.
-- Com o comando 'git commit', os arquivos adicionados são submetidos:
-	- Este submit versiona as alterações dentro do Repositório Local.
-	- Para fazer um commit, o usuário precisa configurar sua identidade.
-	- Com o 'git config', você diz ao Git qual é o seu usuário e e-mail.
-- Com o comando 'git branch', uma branch é escolhida para o versionamento.
-- O 'git remote add origin', estabelece a conexão entre os Repositórios:
-	- Pode-se fazer esta conexão através dos protocolos HTTPS ou do SSH.
-- O 'git push -u origin main' efetua o commit no Repositório Remoto:
-	- O git só permitirá este comando quando você fizer uma autenticação.
-	- No caso do SSH, você precisa fazer a geração de uma chave SSH.
-	- O SSH te dará a autorização para enviar seus arquivos ao GitHub.
-	- O próprio GitHub disponibiliza um tutorial para gerar a chave.
+	- Ele faz com que todos os arquivos sejam adicionados.
+- O comando 'git commit' submete os arquivos adicionados:
+	- Este submit versiona as alterações no Repositório Local.
+	- Para commitar, o usuário precisa configurar sua identidade.
+	- Com o 'git config', o seu usuário e e-mail são configurados.
+- O comando 'git branch' escolhe uma branch para o versionamento.
+- O 'git remote add origin' cria conexão entre os Repositórios:
+	- Pode-se fazer esta conexão com os protocolos HTTPS ou do SSH.
+- O 'git push -u origin main' faz o commit no Repositório Remoto:
+	- O git só permite este comando com autenticação.
+	- No caso do SSH, é preciso que uma chave SSH seja gerada.
+	- O SSH te dará a autorização para enviar arquivos ao GitHub.
+	- O próprio GitHub dispõe de um tutorial para gerar a chave.
 	- A chave é gerada através do comando 'ssh-keygen -t ed25519'.
-	- Você deve passar seu e-mail, senha (opcional) e onde vai salvar a chave.
-	- A chave pública gerada deve ser copiada para o GitHub reconhecê-la.
-	- Assim, sua máquina torna-se identificada e autenticada dentro do GitHub.
-	- Com a identificação e autenticação, torna-se possível versionar o código.
-- Com a sincronização, os arquivos passam a serem vistos dentro do projeto.
+	- Deve-se passar seu e-mail, senha e onde vai salvar a chave.
+	- A chave pública gerada deve ser copiada para o GitHub.
+	- Assim, sua máquina torna-se autenticada dentro do GitHub.
+	- A identificação e autenticação permitem o versionamento.
+- A sincronização faz os arquivos serem visíveis dentro do projeto.
 	
 ## 2. Colaborando em Projetos
 
 ## 2.1. Clonando um Repositório
 - Existem algumas opções para baixar o código do GitHub no computador.
-- Download zip, abrir com GitHub download ou clonar o repositório via URL.
-- A clonagem do repositório pode ser feita com o comando 'git clone <url>'.
+- Download zip, abrir com GitHub ou clonar o repositório via URL.
+- A clonagem do repositório é feita com o comando 'git clone <url>'.
 - Clonando o repositório, todos os arquivos são baixados.
-- Além do código, existem arquivos de configuração para o repositório local.
+- Além do código, o Repositório Local têm arquivos de configuração.
 
 ## 2.2. Realizando um Commit
 - Ao clonar um repositório, o código está pronto para receber colaborações.
-- Após receber as alterações do colaborador, elas ficam gravadas apenas na máquina.
-- Para submeter estas alterações ao repositório, usamos também a ferramenta Git.
+- Ao receber as alterações do colaborador, elas ficam gravadas na máquina.
+- Para submeter estas alterações ao repositório, a ferramenta Git é usada.
 - Submeter o código ajuda os demais programadores a saber o que você fez.
 - O comando 'git status' exibe as nossas colaborações dentro do código.
-- Através do 'git add' selecionamos os arquivos que iremos submeter com um commit.
-- Com o 'git commit', subimos os arquivos e registramos as mudanças no repositório.
+- O comando 'git add' seleciona os arquivos que serão commitados.
+- O comando 'git commit' sobe os arquivos e registra as mudanças.
 	- No comando de commit, devemos descrever as alterações que fizemos.
 - Ao submeter um código, é como se estivéssemos subindo uma versão nova.
-- O comando 'git log' torna possível a visualização dos commits feitos no projeto.
+- O comando 'git log' torna possível a ver os commits feitos no projeto.
+
+## 2.3. Enviando Commits
+- O commit só registra as mudanças feitas no projeto em Repositório Local.
+- O código precisa subir para o Repositório Remoto para ficar visível.
+- O comando 'git clone' já cria uma conexão entre estes dois Repositórios.
+- O comando 'git remote' permite ver os Repositórios Remotos do projeto.
+- Por padrão, o GitHub já fornece o Repositório Remoto 'origin'.
+- O comando 'git push' realiza o envio dos commits ao Repositório Remoto.
+	- É preciso informar o nome do Repositório Remoto e da Branch.
+- Lembrando sempre que é preciso identificar e autenticar a máquina.
+- O dono do projeto também deve permitir novos colaboradores no projeto.
+	- O GitHub envia o convite para o colaborador, que deve aceitá-lo.
+	- Ao aceitá-lo, o colaborador torna-se capaz de rodar o 'git push'.
+
