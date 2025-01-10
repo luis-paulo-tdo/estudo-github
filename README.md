@@ -94,4 +94,16 @@
 - O dono do projeto também deve permitir novos colaboradores no projeto.
 	- O GitHub envia o convite para o colaborador, que deve aceitá-lo.
 	- Ao aceitá-lo, o colaborador torna-se capaz de rodar o 'git push'.
+	
+## 2.4. Baixando os Novos Commits
+- As alterações feitas por um colaborador precisam ser baixadas pelos demais.
+- O comando 'git pull' baixa os commits feitos no Repositório Remoto.
+- Com o 'git log', pode-ser ver as alterações feitas pelos colaboradores.
+- Com todas estas etapas e comandos, há um fluxo de trabalho no Git.
+	- Checar suas modificações com o 'git status'.
+	- Adicionar as mudanças com o 'git add'.
+	- Registrar as mudanças com o 'git commit'.
+	- Enviar os commits para o Repositório Remoto com o 'git push'.
+	- Baixar as mudanças dos outros colaboradores com o 'git pull'.
+- As IDEs possuem integração com o Git, facilitando o uso destes comandos.
 
