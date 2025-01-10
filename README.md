@@ -63,14 +63,14 @@
 	
 ## 2. Colaborando em Projetos
 
-## 2.1. Clonando um Repositório
+### 2.1. Clonando um Repositório
 - Existem algumas opções para baixar o código do GitHub no computador.
 - Download zip, abrir com GitHub ou clonar o repositório via URL.
 - A clonagem do repositório é feita com o comando 'git clone <url>'.
 - Clonando o repositório, todos os arquivos são baixados.
 - Além do código, o Repositório Local têm arquivos de configuração.
 
-## 2.2. Realizando um Commit
+### 2.2. Realizando um Commit
 - Ao clonar um repositório, o código está pronto para receber colaborações.
 - Ao receber as alterações do colaborador, elas ficam gravadas na máquina.
 - Para submeter estas alterações ao repositório, a ferramenta Git é usada.
@@ -82,7 +82,7 @@
 - Ao submeter um código, é como se estivéssemos subindo uma versão nova.
 - O comando 'git log' torna possível a ver os commits feitos no projeto.
 
-## 2.3. Enviando Commits
+### 2.3. Enviando Commits
 - O commit só registra as mudanças feitas no projeto em Repositório Local.
 - O código precisa subir para o Repositório Remoto para ficar visível.
 - O comando 'git clone' já cria uma conexão entre estes dois Repositórios.
@@ -95,7 +95,7 @@
 	- O GitHub envia o convite para o colaborador, que deve aceitá-lo.
 	- Ao aceitá-lo, o colaborador torna-se capaz de rodar o 'git push'.
 	
-## 2.4. Baixando os Novos Commits
+### 2.4. Baixando os Novos Commits
 - As alterações feitas por um colaborador precisam ser baixadas pelos demais.
 - O comando 'git pull' baixa os commits feitos no Repositório Remoto.
 - Com o 'git log', pode-ser ver as alterações feitas pelos colaboradores.
@@ -107,3 +107,13 @@
 	- Baixar as mudanças dos outros colaboradores com o 'git pull'.
 - As IDEs possuem integração com o Git, facilitando o uso destes comandos.
 
+## 3. Utilizando Git na IDE
+
+### 3.1. Git no VSCode
+- As IDEs apresentam formas visuais para se trabalhar com o Git.
+- Eles oferecem ícones e componentes gráficos para facilitar.
+- Ao realizar alterações, a IDE aponta a ocorrência delas.
+- É possível visualizar todos os arquivos alterados.
+- A IDE apresenta uma caixa para digitar a mensagem de commit.
+- Há ícones para adicionar ou desfazer alterações nos arquivos.
+- Existe também um botão para download dos commits Remotos.

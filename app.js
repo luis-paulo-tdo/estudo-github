@@ -1,5 +1,5 @@
 let tentativas = 1;
-let limiteumerosSorteados = 100;
+let limiteumerosSorteados = 50;
 let numerosSorteados = [];
 let numeroSecreto = gerarNumeroAleatorio();
 let botaoReiniciar = document.getElementById('reiniciar');
