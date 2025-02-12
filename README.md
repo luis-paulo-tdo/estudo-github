@@ -144,10 +144,18 @@
 - Cada commit representa uma versão que fica registrada no histórico. 
 - Pode haver a necessidade de voltar commits realizados com o tempo.
 - Mudanças com bug, features que não deveriam ser retiradas, etc.
-- Com o git log, é possível ver e reverter mudanças em arquivos.
+- Com o 'git log', é possível ver e reverter mudanças em arquivos.
 - Porém, existem casos em que muitos arquivos foram alterados.
-- O git log também exibe um ID para cada commit realiado.
-- Usando este ID no comando git revert, o commit é desfeito.
+- O 'git log' também exibe um ID para cada commit realiado.
+- Usando este ID no comando 'git revert', o commit é desfeito.
 - As mudanças são desfeitas de forma automatizada.
 - Um novo commit é criado para registrar as mudanças desfeitas.
-- Após o novo commit, basta apenas fazer um git push.
+- Após o novo commit, basta apenas fazer um 'git push'.
+
+### 4.2. Resetando um Commit
+- Existem situações onde queremos apagar o commit do histórico.
+- Isso ocorre caso uma alteração precise ser cancelada.
+- Diferente do revert, é necessário o ID do commit anterior.
+- O comando usado é o 'git reset --hard <id-commit-anterior>'.
+- Com isso, tanto o commit quanto as mudanças são desfeitas.
+- É interessante que o revert e reset sejam usados localmente.
