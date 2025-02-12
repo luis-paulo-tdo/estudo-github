@@ -137,3 +137,17 @@
 - O trecho marcado abaixo do HEAD contém a mudança de outro colaborador.
 - Os trechos e as marcações que serão descartados devem ser apagados.
 - Após resolver o conflito, deve ser feito um commit das resoluções.
+ 
+## 4. Voltando no Tempo
+
+### 4.1. Desfazendo um Commit
+- Cada commit representa uma versão que fica registrada no histórico. 
+- Pode haver a necessidade de voltar commits realizados com o tempo.
+- Mudanças com bug, features que não deveriam ser retiradas, etc.
+- Com o git log, é possível ver e reverter mudanças em arquivos.
+- Porém, existem casos em que muitos arquivos foram alterados.
+- O git log também exibe um ID para cada commit realiado.
+- Usando este ID no comando git revert, o commit é desfeito.
+- As mudanças são desfeitas de forma automatizada.
+- Um novo commit é criado para registrar as mudanças desfeitas.
+- Após o novo commit, basta apenas fazer um git push.
