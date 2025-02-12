@@ -117,3 +117,16 @@
 - A IDE apresenta uma caixa para digitar a mensagem de commit.
 - Há ícones para adicionar ou desfazer alterações nos arquivos.
 - Existe também um botão para download dos commits Remotos.
+- Existe outro botão para enviar os commits para o Remoto.
+
+### 3.2. Simulando um Conflito
+- Em um projeto no Git, podem ter diversas pessoas colaborando juntas.
+- Então, é normal haver a ocorrência de conflitos entre as alterações.
+- Os mesmos arquivos são alterados por dois ou mais colaboradores. 
+	- O Colaborador A faz o commit de suas alterações no Local.
+	- O Colaborador A faz o pull das alterações feitas no Remoto.
+	- O Colaborador A percebe que o B alterou o mesmo arquivo.
+- O Git acaba por apontar os arquivos onde houveram conflitos.
+- A ferramenta vai tentar fazer a resolução dos conflitos sozinha.
+- Em alguns casos, os colaboradores precisarão resolvê-los:
+	- Eles devem decidir qual alteração irá prevaleces no arquivo.
