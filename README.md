@@ -130,3 +130,10 @@
 - A ferramenta vai tentar fazer a resolução dos conflitos sozinha.
 - Em alguns casos, os colaboradores precisarão resolvê-los:
 	- Eles devem decidir qual alteração irá prevaleces no arquivo.
+
+### 3.3. Resolvendo Conflitos
+- Em cada arquivo com conflito, aparecerá os trechos com ambas as versões.
+- Podemos resolver o conflito tanto por IDE quanto manualmente.
+- O trecho marcado abaixo do HEAD contém a mudança de outro colaborador.
+- Os trechos e as marcações que serão descartados devem ser apagados.
+- Após resolver o conflito, deve ser feito um commit das resoluções.
