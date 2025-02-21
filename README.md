@@ -160,9 +160,20 @@
 - Com isso, tanto o commit quanto as mudanças são desfeitas.
 - É interessante que o revert e reset sejam usados localmente.
 
-
 ### 4.3. Alterando o Último Commit
 - Podem haver situações que as mensagens de commit estão erradas.
 - Isto pode ser feito com o 'git commit --amend -m "<Mensagem>"'.
 	- Este comando funciona em repositório local.
 - Também é possível adicionar novos arquivos ao commit existente.
+
+## 5. Mais Recursos
+
+### 5.1. Readme do Repositório
+- Necessário quando precisamos realizar uma documentação resumida do código.
+- Ele pode servir para quem está entrando em um projeto.
+- Pode servir também em casos onde o projeto é Open Source.
+- O arquivo Readme funciona como uma documentação dentro do repositório.
+- O próprio GitHub realiza o tratamento deste arquivo:
+	- Todo o seu conteúdo é exibido e formatado na página do repositório.
+- O arquivo README.md deve ser criado na pasta raíz do repositório.
+- É possível formatá-lo com as linguagens Markdown e HTML.
