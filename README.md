@@ -191,3 +191,11 @@
 - Existem sites que podem gerar automaticamente o .gitignore:
 	- Ao selecionar uma linguagem/framework, um arquivo padrão é gerado.
 	- Todos os arquivos/diretórios gerados pelo framework são ignorados.
+
+### 5.3. Compartilhando Códigos com Gist
+- Existem casos em que desejamos compartilhar trechos de códigos, e não projetos.
+- Nestes casos, queremos fazer isto sem precisar criar repositórios e commits.
+- A página do repositório contém uma opção chamada 'New Gist'.
+- A ferramenta contém um espaço para editar o código de cada arquivo.
+- Uma vez o código editado, ao compartilhá-lo você gera uma URL dele.
+- Nesta URL, os códigos já estarão separados por arquivos.
