@@ -177,3 +177,17 @@
 	- Todo o seu conteúdo é exibido e formatado na página do repositório.
 - O arquivo README.md deve ser criado na pasta raíz do repositório.
 - É possível formatá-lo com as linguagens Markdown e HTML.
+
+### 5.2. Ignorando Arquivos no Repositório
+- Existem arquivos que não precisam ou que não podem ser postos em repositório.
+- Selecionar cada arquivo e pasta com o 'git add' pode ser muito custoso.
+- É possível delegar para o git a tarefa de ignorar estes arquivos indesejados.
+- Basta criar um arquivo '.gitignore' no projeto e especificá-los.
+- Para cada linha do arquivo, pode ser especificado um ou vários itens:
+	- Nome de uma pasta/diretório de projeto.
+	- Arquivos com determinados nomes ou formatações.
+- Em seguida, o .gitignore precisa ser enviado para o repositório.
+- Ao fazer um commit, os arquivos listados no .gitignore não são versionados.
+- Existem sites que podem gerar automaticamente o .gitignore:
+	- Ao selecionar uma linguagem/framework, um arquivo padrão é gerado.
+	- Todos os arquivos/diretórios gerados pelo framework são ignorados.
