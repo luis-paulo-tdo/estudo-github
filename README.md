@@ -159,3 +159,10 @@
 - O comando usado é o 'git reset --hard <id-commit-anterior>'.
 - Com isso, tanto o commit quanto as mudanças são desfeitas.
 - É interessante que o revert e reset sejam usados localmente.
+
+
+### 4.3. Alterando o Último Commit
+- Podem haver situações que as mensagens de commit estão erradas.
+- Isto pode ser feito com o 'git commit --amend -m "<Mensagem>"'.
+	- Este comando funciona em repositório local.
+- Também é possível adicionar novos arquivos ao commit existente.
